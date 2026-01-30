@@ -65,13 +65,13 @@ This has also created and activated an environment that contains all the package
 NaMeco is very  user friendly in the sense that it can do everything in 1 command. There are a lot of adjustable options that are run at default settings when not explicitely mentioned in your command line. You can find all settings, what they do and how to adjust them on the NaMeco page https://github.com/timyerg/NaMeco. There are a couple settings I recommend to adjust:
 - Your input directory, this will be the path to the mergedreads folder (e.g. --inp_dir /zfs/omics/personal/15827127/nanopore/test2/mergedreads/)
 - Your output directory, this can be a folder of  your choosing like 'results' (e.g. --out_dir /zfs/omics/personal/15827127/nanopore/test2/results2/)
-- The amount of threads (computing power) the cluster will allocate to the analysis. More threads = faster but also a higher burden on the cluster. In my personal experience setting this to 30 threads falls easily within the socially accepted cluster burden while maintaining high speed analysis. You can play around with this setting depending on the size of your dataset and experience in the runtime.
+- The amount of threads (computing power) the cluster will allocate to the analysis. More threads = faster but also a higher burden on the cluster. In my personal experience setting this to 100 threads falls easily within the socially accepted cluster burden while maintaining high speed analysis. You can play around with this setting depending on the size of your dataset and experience in the runtime.
 - Forward primer setting. Default primers from NaMeco may be different from the primers we use in the lab so its helpful to specify the primers that were used
 - Reverse primer setting idem
 
 Below is the command I have used for my runs:
 ```
-nameco --inp_dir /zfs/omics/personal/15827127/nanopore/test2/mergedreads/ --out_dir /zfs/omics/personal/15827127/nanopore/test2/results2/ --threads 30 --primer_F AGAGTTTGATCCTGGCTCAG --primer_R GGTTACCTTGTTACGACTT 
+nameco --inp_dir /zfs/omics/personal/15827127/nanopore/test2/mergedreads/ --out_dir /zfs/omics/personal/15827127/nanopore/test2/results2/ --threads 100 --primer_F AGAGTTTGATCCTGGCTCAG --primer_R GGTTACCTTGTTACGACTT 
 ```
 NaMeco will now run for a while. Close to the start it will give you some warnings about pkg_resources being depricated but this can be ignored.
 
