@@ -71,7 +71,7 @@ NaMeco is very  user friendly in the sense that it can do everything in 1 comman
 
 Below is the command I have used for my runs:
 ```
-nameco --inp_dir /zfs/omics/personal/15827127/nanopore/test2/mergedreads/ --out_dir /zfs/omics/personal/15827127/nanopore/test2/results2/ --threads 100 --primer_F AGAGTTTGATCCTGGCTCAG --primer_R GGTTACCTTGTTACGACTT 
+nameco --inp_dir /zfs/omics/personal/15827127/nanopore/test2/mergedreads/ --out_dir /zfs/omics/personal/15827127/nanopore/test2/results2/ --threads 60 --primer_F AGAGTTTGATCCTGGCTCAG --primer_R GGTTACCTTGTTACGACTT 
 ```
 NaMeco will now run for a while. Close to the start it will give you some warnings about pkg_resources being depricated but this can be ignored.
 
