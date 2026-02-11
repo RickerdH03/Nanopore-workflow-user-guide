@@ -3,6 +3,7 @@ This is page is meant to serve as a detailed user guide for beginner-coders work
 
 ## Access to cluster
 The workflow can be best run on the SILS computer cluster Crunchomics HPC to get results fast while not occupying your computer's own computational resources. You may request an account by emailing W.C.deLeeuw@uva.nl mentioning your UvAnetID and purpose of using the cluster. Now follow the steps provided by the Crunchomics documentation to get started https://crunchomics-documentation.readthedocs.io/en/latest. To help yourself understand basic navigation commands in bash please refer to the following cheat sheet:
+
 <img width="1536" height="1086" alt="image" src="https://github.com/user-attachments/assets/800de4d7-ab1c-43b7-9eaa-d3974b44bfac" />
 
 
